@@ -1,0 +1,236 @@
+body {
+    font-size: 24px;
+    line-height: 32px;
+    color: #333;
+  }
+header {
+    float: left;
+    background: #4aaaa5;
+    padding: 20px;
+    color: white;
+    margin-left: 200px;
+    box-sizing: border-box;
+    width: -30px;
+}
+.container {
+    position: relative;
+    display: inline-block; /* Make the width of box same as image */
+  }
+
+  .chess {
+    position: relative;
+    display: inline-block; /* Make the width of box same as image */
+    margin-left: 50px;
+  }
+  .wings {
+    position: relative;
+    display: inline-block; /* Make the width of box same as image */
+    margin: 0 0 30px 20px;
+  }
+  .grody {
+    position: relative;
+    display: inline-block; /* Make the width of box same as image */
+    margin: 0 0 20px 96px;
+  }
+  .yo {
+    position: relative;
+    display: inline-block; /* Make the width of box same as image */
+    margin: 0 0 20px 155px;
+  }
+  .tv {
+    position: relative;
+    display: inline-block; /* Make the width of box same as image */
+    margin: 20px;
+  }
+.text-block {
+    position: absolute;
+    background-color: #4aaaa5;
+    color: white;
+    top: 38%; /* Adjust this value to move the positioned div up and down */
+    text-align: center;
+    width: 88%; /* Set the width of the positioned div */
+    z-index: 999;
+    margin: 0 auto;
+    /* left: 0;
+    right: 0; */
+  }
+.chess-text {
+    position: absolute;
+    background-color: #4aaaa5;
+    color: white;
+    top: 43%; /* Adjust this value to move the positioned div up and down */
+    text-align: center;
+    width: 100%; /* Set the width of the positioned div */
+    z-index: 999;
+    margin: 0 auto;
+    /* left: 0;
+    right: 0; */
+  }
+  .wings-text {
+    position: absolute;
+    background-color: #4aaaa5;
+    color: white;
+    top: 30%; /* Adjust this value to move the positioned div up and down */
+    text-align: center;
+    width: 100%; /* Set the width of the positioned div */
+    z-index: 999;
+    margin: 0 auto;
+    /* left: 0; */
+    /* right: 0; */
+  }
+  .grody-text {
+    position: absolute;
+    background-color: #4aaaa5;
+    color: white;
+    top: 47%; /* Adjust this value to move the positioned div up and down */
+    text-align: center;
+    width: 100%; /* Set the width of the positioned div */
+    z-index: 999;
+    margin: 0 auto;
+    /* left: 0; */
+    /* right: 0; */
+  }
+  .tv-text {
+    position: absolute;
+    background-color: #4aaaa5;
+    color: white;
+    top: 44%; /* Adjust this value to move the positioned div up and down */
+    text-align: center;
+    width: 100%; /* Set the width of the positioned div */
+    z-index: 999;
+    margin: 0 auto;
+    /* left: 0; */
+    /* right: 0; */
+  }
+  .yo-text {
+    position: absolute;
+    background-color: #4aaaa5;
+    color: white;
+    top: 43%; /* Adjust this value to move the positioned div up and down */
+    text-align: center;
+    width: 100%; /* Set the width of the positioned div */
+    z-index: 999;
+    margin: 0 auto;
+    /* left: 0; */
+    /* right: 0; */
+  }
+nav {
+    padding-top: 55px;
+    float: right;
+    margin-right: 200px;
+    overflow: auto;
+}
+.white {
+    color: white;
+}
+.gray {
+    color: gray;
+}
+a {
+    color: #4aaaa5;
+    text-decoration: none;
+}
+.about{
+    box-sizing: border-box;
+    background-color: white;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.title {
+    border-bottom: 2px solid #4aaaa5;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    color: #4aaaa5;
+}
+.full {
+    width: 100%;
+    height: 960px;
+    overflow: auto;
+    border-top: 2px solid #4aaaa5;
+    color: black;
+    background-image: url("../Images/beanstalk.png")
+    }
+.headshot {
+        padding: 10px;
+        width: 200px;
+        height: 200px;
+        float: left;
+    }
+table{
+        font-family: Arial, Helvetica, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+        padding-left: 20px;
+    }
+td, th{
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+    }
+
+
+/*Contact Form CSS */
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container {
+    border-radius: 5px;
+    background-color: white;
+    padding: 20px;
+  }
+
+footer {
+        padding-top: 30px;
+        clear: both;
+        background: #666666;
+        border-top: 8px solid #4aaaa5;
+        text-align: center;
+        color: white;
+    }
+    
+
+    @media screen and (max-width: 980px) {
+      body {
+        background-color: olive;
+      }
+    }
+    @media screen and (max-width: 768px) {
+      body {
+        background-color: green;
+      }
+    }
+    @media screen and (max-width: 640px) {
+      header {
+        position: static;
+      }
+      body {
+        background-color: blueviolet;
+        
+      }
+    }
